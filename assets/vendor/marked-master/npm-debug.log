@@ -1,0 +1,991 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly mapToRegistry name markdown
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'markdown',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'markdown',
+7 silly mapToRegistry   name: 'markdown',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/markdown
+9 silly mapToRegistry name showdown
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'showdown',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'showdown',
+12 silly mapToRegistry   name: 'showdown',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/showdown
+14 silly mapToRegistry name robotskirt
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'robotskirt',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   escapedName: 'robotskirt',
+17 silly mapToRegistry   name: 'robotskirt',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/robotskirt
+19 verbose request uri https://registry.npmjs.org/markdown
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 6:26:51 PM
+22 verbose request id b89352289453cebd
+23 verbose etag W/"598d82d6-269c"
+24 verbose lastModified Fri, 11 Aug 2017 10:11:34 GMT
+25 http request GET https://registry.npmjs.org/markdown
+26 verbose request uri https://registry.npmjs.org/showdown
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 6:26:52 PM
+29 verbose etag W/"599f389f-188f3"
+30 verbose lastModified Thu, 24 Aug 2017 20:35:43 GMT
+31 http request GET https://registry.npmjs.org/showdown
+32 verbose request uri https://registry.npmjs.org/robotskirt
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 6:26:52 PM
+35 verbose etag W/"58916868-1985b"
+36 verbose lastModified Wed, 01 Feb 2017 04:47:36 GMT
+37 http request GET https://registry.npmjs.org/robotskirt
+38 http 304 https://registry.npmjs.org/showdown
+39 verbose headers { date: 'Thu, 31 Aug 2017 22:26:52 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   etag: 'W/"599f389f-188f3"',
+39 verbose headers   age: '0',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-jfk8127-JFK',
+39 verbose headers   'x-cache': 'HIT',
+39 verbose headers   'x-cache-hits': '1',
+39 verbose headers   'x-timer': 'S1504218412.218480,VS0,VE65',
+39 verbose headers   vary: 'Accept-Encoding, Accept' }
+40 silly get cb [ 304,
+40 silly get   { date: 'Thu, 31 Aug 2017 22:26:52 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     etag: 'W/"599f389f-188f3"',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-jfk8127-JFK',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '1',
+40 silly get     'x-timer': 'S1504218412.218480,VS0,VE65',
+40 silly get     vary: 'Accept-Encoding, Accept' } ]
+41 verbose etag https://registry.npmjs.org/showdown from cache
+42 verbose get saving showdown to /Users/AdamMacdonald/.npm/registry.npmjs.org/showdown/.cache.json
+43 verbose correctMkdir /Users/AdamMacdonald/.npm correctMkdir not in flight; initializing
+44 http 304 https://registry.npmjs.org/markdown
+45 verbose headers { date: 'Thu, 31 Aug 2017 22:26:52 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   etag: 'W/"598d82d6-269c"',
+45 verbose headers   age: '0',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-jfk8128-JFK',
+45 verbose headers   'x-cache': 'HIT',
+45 verbose headers   'x-cache-hits': '1',
+45 verbose headers   'x-timer': 'S1504218412.209993,VS0,VE83',
+45 verbose headers   vary: 'Accept-Encoding, Accept' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Thu, 31 Aug 2017 22:26:52 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     etag: 'W/"598d82d6-269c"',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-jfk8128-JFK',
+46 silly get     'x-cache': 'HIT',
+46 silly get     'x-cache-hits': '1',
+46 silly get     'x-timer': 'S1504218412.209993,VS0,VE83',
+46 silly get     vary: 'Accept-Encoding, Accept' } ]
+47 verbose etag https://registry.npmjs.org/markdown from cache
+48 verbose get saving markdown to /Users/AdamMacdonald/.npm/registry.npmjs.org/markdown/.cache.json
+49 verbose correctMkdir /Users/AdamMacdonald/.npm correctMkdir already in flight; waiting
+50 http 304 https://registry.npmjs.org/robotskirt
+51 verbose headers { date: 'Thu, 31 Aug 2017 22:26:52 GMT',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   'cache-control': 'max-age=300',
+51 verbose headers   etag: 'W/"58916868-1985b"',
+51 verbose headers   age: '0',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'x-served-by': 'cache-jfk8149-JFK',
+51 verbose headers   'x-cache': 'MISS',
+51 verbose headers   'x-cache-hits': '0',
+51 verbose headers   'x-timer': 'S1504218412.218466,VS0,VE111',
+51 verbose headers   vary: 'Accept-Encoding, Accept' }
+52 silly get cb [ 304,
+52 silly get   { date: 'Thu, 31 Aug 2017 22:26:52 GMT',
+52 silly get     via: '1.1 varnish',
+52 silly get     'cache-control': 'max-age=300',
+52 silly get     etag: 'W/"58916868-1985b"',
+52 silly get     age: '0',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-served-by': 'cache-jfk8149-JFK',
+52 silly get     'x-cache': 'MISS',
+52 silly get     'x-cache-hits': '0',
+52 silly get     'x-timer': 'S1504218412.218466,VS0,VE111',
+52 silly get     vary: 'Accept-Encoding, Accept' } ]
+53 verbose etag https://registry.npmjs.org/robotskirt from cache
+54 verbose get saving robotskirt to /Users/AdamMacdonald/.npm/registry.npmjs.org/robotskirt/.cache.json
+55 verbose correctMkdir /Users/AdamMacdonald/.npm correctMkdir not in flight; initializing
+56 info outdated updating [ { dep:
+56 info outdated      { package: [Object],
+56 info outdated        path: '/Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master',
+56 info outdated        parent: [Object],
+56 info outdated        isMissing: true },
+56 info outdated     depname: 'robotskirt',
+56 info outdated     current: undefined,
+56 info outdated     wanted: '2.7.1',
+56 info outdated     latest: '2.7.1',
+56 info outdated     req: '*',
+56 info outdated     what: 'robotskirt@2.7.1' } ]
+57 silly loadCurrentTree Starting
+58 silly install loadCurrentTree
+59 silly install readLocalPackageData
+60 silly fetchPackageMetaData robotskirt@2.7.1
+61 silly fetchNamedPackageData robotskirt
+62 silly mapToRegistry name robotskirt
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'robotskirt',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'robotskirt',
+65 silly mapToRegistry   name: 'robotskirt',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/robotskirt
+67 verbose get https://registry.npmjs.org/robotskirt not expired, no request
+68 silly install normalizeTree
+69 silly loadCurrentTree Finishing
+70 silly loadIdealTree Starting
+71 silly install loadIdealTree
+72 silly cloneCurrentTree Starting
+73 silly install cloneCurrentTreeToIdealTree
+74 silly cloneCurrentTree Finishing
+75 silly loadShrinkwrap Starting
+76 silly install loadShrinkwrap
+77 silly loadShrinkwrap Finishing
+78 silly loadAllDepsIntoIdealTree Starting
+79 silly install loadAllDepsIntoIdealTree
+80 silly resolveWithNewModule robotskirt@2.7.1 checking installable status
+81 silly cache add args [ 'robotskirt@2.7.1', null ]
+82 verbose cache add spec robotskirt@2.7.1
+83 silly cache add parsed spec Result {
+83 silly cache add   raw: 'robotskirt@2.7.1',
+83 silly cache add   scope: null,
+83 silly cache add   escapedName: 'robotskirt',
+83 silly cache add   name: 'robotskirt',
+83 silly cache add   rawSpec: '2.7.1',
+83 silly cache add   spec: '2.7.1',
+83 silly cache add   type: 'version' }
+84 silly addNamed robotskirt@2.7.1
+85 verbose addNamed "2.7.1" is a plain semver version for robotskirt
+86 silly mapToRegistry name robotskirt
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'robotskirt',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'robotskirt',
+89 silly mapToRegistry   name: 'robotskirt',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/robotskirt
+91 verbose addNameVersion registry:https://registry.npmjs.org/robotskirt not in flight; fetching
+92 verbose get https://registry.npmjs.org/robotskirt not expired, no request
+93 silly cache afterAdd robotskirt@2.7.1
+94 verbose afterAdd /Users/AdamMacdonald/.npm/robotskirt/2.7.1/package/package.json not in flight; writing
+95 verbose correctMkdir /Users/AdamMacdonald/.npm correctMkdir not in flight; initializing
+96 verbose afterAdd /Users/AdamMacdonald/.npm/robotskirt/2.7.1/package/package.json written
+97 silly loadAllDepsIntoIdealTree Finishing
+98 silly loadIdealTree Finishing
+99 silly currentTree marked@0.3.2
+99 silly currentTree ├── abbrev@1.1.0
+99 silly currentTree ├── ansi-regex@2.1.1
+99 silly currentTree ├── builtin-modules@1.1.1
+99 silly currentTree ├── camelcase@4.1.0
+99 silly currentTree ├─┬ cliui@3.2.0
+99 silly currentTree │ └── string-width@1.0.2
+99 silly currentTree ├── code-point-at@1.1.0
+99 silly currentTree ├── cross-spawn@5.1.0
+99 silly currentTree ├── decamelize@1.2.0
+99 silly currentTree ├── error-ex@1.3.1
+99 silly currentTree ├── execa@0.7.0
+99 silly currentTree ├── find-up@2.1.0
+99 silly currentTree ├── get-caller-file@1.0.2
+99 silly currentTree ├── get-stream@3.0.0
+99 silly currentTree ├── graceful-fs@4.1.11
+99 silly currentTree ├── hosted-git-info@2.5.0
+99 silly currentTree ├── invert-kv@1.0.0
+99 silly currentTree ├── is-arrayish@0.2.1
+99 silly currentTree ├── is-builtin-module@1.0.0
+99 silly currentTree ├── is-fullwidth-code-point@1.0.0
+99 silly currentTree ├── is-stream@1.1.0
+99 silly currentTree ├── isexe@2.0.0
+99 silly currentTree ├── lcid@1.0.0
+99 silly currentTree ├── load-json-file@2.0.0
+99 silly currentTree ├── locate-path@2.0.0
+99 silly currentTree ├── lru-cache@4.1.1
+99 silly currentTree ├── markdown@0.5.0
+99 silly currentTree ├── mem@1.1.0
+99 silly currentTree ├── mimic-fn@1.1.0
+99 silly currentTree ├── nopt@2.1.2
+99 silly currentTree ├── normalize-package-data@2.4.0
+99 silly currentTree ├── npm-run-path@2.0.2
+99 silly currentTree ├── number-is-nan@1.0.1
+99 silly currentTree ├── os-locale@2.1.0
+99 silly currentTree ├── p-finally@1.0.0
+99 silly currentTree ├── p-limit@1.1.0
+99 silly currentTree ├── p-locate@2.0.0
+99 silly currentTree ├── parse-json@2.2.0
+99 silly currentTree ├── path-exists@3.0.0
+99 silly currentTree ├── path-key@2.0.1
+99 silly currentTree ├── path-type@2.0.0
+99 silly currentTree ├── pify@2.3.0
+99 silly currentTree ├── pseudomap@1.0.2
+99 silly currentTree ├── read-pkg-up@2.0.0
+99 silly currentTree ├── read-pkg@2.0.0
+99 silly currentTree ├── require-directory@2.1.1
+99 silly currentTree ├── require-main-filename@1.0.1
+99 silly currentTree ├── semver@5.4.1
+99 silly currentTree ├── set-blocking@2.0.0
+99 silly currentTree ├── shebang-command@1.2.0
+99 silly currentTree ├── shebang-regex@1.0.0
+99 silly currentTree ├── showdown@1.7.3
+99 silly currentTree ├── signal-exit@3.0.2
+99 silly currentTree ├── spdx-correct@1.0.2
+99 silly currentTree ├── spdx-expression-parse@1.0.4
+99 silly currentTree ├── spdx-license-ids@1.2.2
+99 silly currentTree ├─┬ string-width@2.1.1
+99 silly currentTree │ ├── ansi-regex@3.0.0
+99 silly currentTree │ ├── is-fullwidth-code-point@2.0.0
+99 silly currentTree │ └── strip-ansi@4.0.0
+99 silly currentTree ├── strip-ansi@3.0.1
+99 silly currentTree ├── strip-bom@3.0.0
+99 silly currentTree ├── strip-eof@1.0.0
+99 silly currentTree ├── validate-npm-package-license@3.0.1
+99 silly currentTree ├── which-module@2.0.0
+99 silly currentTree ├── which@1.3.0
+99 silly currentTree ├─┬ wrap-ansi@2.1.0
+99 silly currentTree │ └── string-width@1.0.2
+99 silly currentTree ├── y18n@3.2.1
+99 silly currentTree ├── yallist@2.1.2
+99 silly currentTree ├── yargs-parser@7.0.0
+99 silly currentTree └── yargs@8.0.2
+100 silly idealTree marked@0.3.2
+100 silly idealTree ├── abbrev@1.1.0
+100 silly idealTree ├── ansi-regex@2.1.1
+100 silly idealTree ├── builtin-modules@1.1.1
+100 silly idealTree ├── camelcase@4.1.0
+100 silly idealTree ├─┬ cliui@3.2.0
+100 silly idealTree │ └── string-width@1.0.2
+100 silly idealTree ├── code-point-at@1.1.0
+100 silly idealTree ├── cross-spawn@5.1.0
+100 silly idealTree ├── decamelize@1.2.0
+100 silly idealTree ├── error-ex@1.3.1
+100 silly idealTree ├── execa@0.7.0
+100 silly idealTree ├── find-up@2.1.0
+100 silly idealTree ├── get-caller-file@1.0.2
+100 silly idealTree ├── get-stream@3.0.0
+100 silly idealTree ├── graceful-fs@4.1.11
+100 silly idealTree ├── hosted-git-info@2.5.0
+100 silly idealTree ├── invert-kv@1.0.0
+100 silly idealTree ├── is-arrayish@0.2.1
+100 silly idealTree ├── is-builtin-module@1.0.0
+100 silly idealTree ├── is-fullwidth-code-point@1.0.0
+100 silly idealTree ├── is-stream@1.1.0
+100 silly idealTree ├── isexe@2.0.0
+100 silly idealTree ├── lcid@1.0.0
+100 silly idealTree ├── load-json-file@2.0.0
+100 silly idealTree ├── locate-path@2.0.0
+100 silly idealTree ├── lru-cache@4.1.1
+100 silly idealTree ├── markdown@0.5.0
+100 silly idealTree ├── mem@1.1.0
+100 silly idealTree ├── mimic-fn@1.1.0
+100 silly idealTree ├── nopt@2.1.2
+100 silly idealTree ├── normalize-package-data@2.4.0
+100 silly idealTree ├── npm-run-path@2.0.2
+100 silly idealTree ├── number-is-nan@1.0.1
+100 silly idealTree ├── os-locale@2.1.0
+100 silly idealTree ├── p-finally@1.0.0
+100 silly idealTree ├── p-limit@1.1.0
+100 silly idealTree ├── p-locate@2.0.0
+100 silly idealTree ├── parse-json@2.2.0
+100 silly idealTree ├── path-exists@3.0.0
+100 silly idealTree ├── path-key@2.0.1
+100 silly idealTree ├── path-type@2.0.0
+100 silly idealTree ├── pify@2.3.0
+100 silly idealTree ├── pseudomap@1.0.2
+100 silly idealTree ├── read-pkg-up@2.0.0
+100 silly idealTree ├── read-pkg@2.0.0
+100 silly idealTree ├── require-directory@2.1.1
+100 silly idealTree ├── require-main-filename@1.0.1
+100 silly idealTree ├── robotskirt@2.7.1
+100 silly idealTree ├── semver@5.4.1
+100 silly idealTree ├── set-blocking@2.0.0
+100 silly idealTree ├── shebang-command@1.2.0
+100 silly idealTree ├── shebang-regex@1.0.0
+100 silly idealTree ├── showdown@1.7.3
+100 silly idealTree ├── signal-exit@3.0.2
+100 silly idealTree ├── spdx-correct@1.0.2
+100 silly idealTree ├── spdx-expression-parse@1.0.4
+100 silly idealTree ├── spdx-license-ids@1.2.2
+100 silly idealTree ├─┬ string-width@2.1.1
+100 silly idealTree │ ├── ansi-regex@3.0.0
+100 silly idealTree │ ├── is-fullwidth-code-point@2.0.0
+100 silly idealTree │ └── strip-ansi@4.0.0
+100 silly idealTree ├── strip-ansi@3.0.1
+100 silly idealTree ├── strip-bom@3.0.0
+100 silly idealTree ├── strip-eof@1.0.0
+100 silly idealTree ├── validate-npm-package-license@3.0.1
+100 silly idealTree ├── which-module@2.0.0
+100 silly idealTree ├── which@1.3.0
+100 silly idealTree ├─┬ wrap-ansi@2.1.0
+100 silly idealTree │ └── string-width@1.0.2
+100 silly idealTree ├── y18n@3.2.1
+100 silly idealTree ├── yallist@2.1.2
+100 silly idealTree ├── yargs-parser@7.0.0
+100 silly idealTree └── yargs@8.0.2
+101 silly generateActionsToTake Starting
+102 silly install generateActionsToTake
+103 silly generateActionsToTake Finishing
+104 silly diffTrees action count 1
+105 silly diffTrees add robotskirt@2.7.1
+106 silly decomposeActions action count 8
+107 silly decomposeActions fetch robotskirt@2.7.1
+108 silly decomposeActions extract robotskirt@2.7.1
+109 silly decomposeActions test robotskirt@2.7.1
+110 silly decomposeActions preinstall robotskirt@2.7.1
+111 silly decomposeActions build robotskirt@2.7.1
+112 silly decomposeActions install robotskirt@2.7.1
+113 silly decomposeActions postinstall robotskirt@2.7.1
+114 silly decomposeActions finalize robotskirt@2.7.1
+115 silly runTopLevelLifecycles Starting
+116 silly executeActions Starting
+117 silly install executeActions
+118 silly doSerial global-install 0
+119 silly doParallel fetch 1
+120 verbose correctMkdir /Users/AdamMacdonald/.npm/_locks correctMkdir not in flight; initializing
+121 verbose lock using /Users/AdamMacdonald/.npm/_locks/staging-4c48c004cf4317fe.lock for /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging
+122 silly doParallel extract 1
+123 silly extract robotskirt@2.7.1
+124 verbose unbuild node_modules/.staging/robotskirt-1485c8fc
+125 silly gentlyRm /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc is being purged from base /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master
+126 verbose gentlyRm don't care about contents; nuking /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc
+127 verbose tar unpack /Users/AdamMacdonald/.npm/robotskirt/2.7.1/package.tgz
+128 verbose tar unpacking to /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc
+129 silly gentlyRm /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc is being purged
+130 verbose gentlyRm don't care about contents; nuking /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc
+131 silly gunzTarPerm modes [ '755', '644' ]
+132 silly gunzTarPerm extractEntry package.json
+133 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+134 silly gunzTarPerm extractEntry .npmignore
+135 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+136 silly gunzTarPerm extractEntry README.md
+137 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+138 silly gunzTarPerm extractEntry LICENSE
+139 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+140 silly gunzTarPerm extractEntry index.js
+141 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry man/robotskirt.1
+143 silly gunzTarPerm modified mode [ 'man/robotskirt.1', 438, 420 ]
+144 silly gunzTarPerm extractEntry .gitmodules
+145 silly gunzTarPerm modified mode [ '.gitmodules', 438, 420 ]
+146 silly gunzTarPerm extractEntry benchmark/package.json
+147 silly gunzTarPerm modified mode [ 'benchmark/package.json', 438, 420 ]
+148 silly gunzTarPerm extractEntry benchmark/README
+149 silly gunzTarPerm modified mode [ 'benchmark/README', 438, 420 ]
+150 silly gunzTarPerm extractEntry benchmark/fix.js
+151 silly gunzTarPerm modified mode [ 'benchmark/fix.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry benchmark/index.js
+153 silly gunzTarPerm modified mode [ 'benchmark/index.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry benchmark/tests/code_blocks.html
+155 silly gunzTarPerm modified mode [ 'benchmark/tests/code_blocks.html', 438, 420 ]
+156 silly gunzTarPerm extractEntry benchmark/tests/literal_quotes_in_titles.text
+157 silly gunzTarPerm modified mode [ 'benchmark/tests/literal_quotes_in_titles.text', 438, 420 ]
+158 silly gunzTarPerm extractEntry benchmark/tests/loose_lists.text
+159 silly gunzTarPerm modified mode [ 'benchmark/tests/loose_lists.text', 438, 420 ]
+160 silly gunzTarPerm extractEntry benchmark/tests/links_inline_style.text
+161 silly gunzTarPerm modified mode [ 'benchmark/tests/links_inline_style.text', 438, 420 ]
+162 silly gunzTarPerm extractEntry benchmark/tests/inline_html_advanced.html
+163 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_advanced.html', 438, 420 ]
+164 silly gunzTarPerm extractEntry benchmark/tests/blockquote_list_item.text
+165 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquote_list_item.text', 438, 420 ]
+166 silly gunzTarPerm extractEntry benchmark/tests/inline_html_simple.html
+167 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_simple.html', 438, 420 ]
+168 silly gunzTarPerm extractEntry benchmark/tests/gfm_em.text
+169 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_em.text', 438, 420 ]
+170 silly gunzTarPerm extractEntry benchmark/tests/tabs.text
+171 silly gunzTarPerm modified mode [ 'benchmark/tests/tabs.text', 438, 420 ]
+172 silly gunzTarPerm extractEntry benchmark/tests/ref_paren.html
+173 silly gunzTarPerm modified mode [ 'benchmark/tests/ref_paren.html', 438, 420 ]
+174 silly gunzTarPerm extractEntry benchmark/tests/tabs.html
+175 silly gunzTarPerm modified mode [ 'benchmark/tests/tabs.html', 438, 420 ]
+176 silly gunzTarPerm extractEntry benchmark/tests/tidyness.text
+177 silly gunzTarPerm modified mode [ 'benchmark/tests/tidyness.text', 438, 420 ]
+178 silly gunzTarPerm extractEntry benchmark/tests/gfm_em.html
+179 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_em.html', 438, 420 ]
+180 silly gunzTarPerm extractEntry benchmark/tests/links_reference_style.text
+181 silly gunzTarPerm modified mode [ 'benchmark/tests/links_reference_style.text', 438, 420 ]
+182 silly gunzTarPerm extractEntry benchmark/tests/links_reference_style.html
+183 silly gunzTarPerm modified mode [ 'benchmark/tests/links_reference_style.html', 438, 420 ]
+184 silly gunzTarPerm extractEntry benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.html
+185 silly gunzTarPerm modified mode [ 'benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.html',
+185 silly gunzTarPerm   438,
+185 silly gunzTarPerm   420 ]
+186 silly gunzTarPerm extractEntry benchmark/tests/gfm_links.html
+187 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_links.html', 438, 420 ]
+188 silly gunzTarPerm extractEntry benchmark/tests/blockquotes_with_code_blocks.text
+189 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquotes_with_code_blocks.text', 438, 420 ]
+190 silly gunzTarPerm extractEntry benchmark/tests/ref_paren.text
+191 silly gunzTarPerm modified mode [ 'benchmark/tests/ref_paren.text', 438, 420 ]
+192 silly gunzTarPerm extractEntry benchmark/tests/main.text
+193 silly gunzTarPerm modified mode [ 'benchmark/tests/main.text', 438, 420 ]
+194 silly gunzTarPerm extractEntry benchmark/tests/list_item_text.text
+195 silly gunzTarPerm modified mode [ 'benchmark/tests/list_item_text.text', 438, 420 ]
+196 silly gunzTarPerm extractEntry benchmark/tests/gfm_break.html
+197 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_break.html', 438, 420 ]
+198 silly gunzTarPerm extractEntry benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.text
+199 silly gunzTarPerm modified mode [ 'benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.text',
+199 silly gunzTarPerm   438,
+199 silly gunzTarPerm   420 ]
+200 silly gunzTarPerm extractEntry benchmark/tests/nested_code.html
+201 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_code.html', 438, 420 ]
+202 silly gunzTarPerm extractEntry benchmark/tests/gfm_code.text
+203 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_code.text', 438, 420 ]
+204 silly gunzTarPerm extractEntry benchmark/tests/same_bullet.html
+205 silly gunzTarPerm modified mode [ 'benchmark/tests/same_bullet.html', 438, 420 ]
+206 silly gunzTarPerm extractEntry benchmark/tests/escaped_angles.text
+207 silly gunzTarPerm modified mode [ 'benchmark/tests/escaped_angles.text', 438, 420 ]
+208 silly gunzTarPerm extractEntry benchmark/tests/inline_html_comments.html
+209 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_comments.html', 438, 420 ]
+210 silly gunzTarPerm extractEntry benchmark/tests/code_spans.text
+211 silly gunzTarPerm modified mode [ 'benchmark/tests/code_spans.text', 438, 420 ]
+212 silly gunzTarPerm extractEntry benchmark/tests/nested_blockquotes.text
+213 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_blockquotes.text', 438, 420 ]
+214 silly gunzTarPerm extractEntry benchmark/tests/nested_em.text
+215 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_em.text', 438, 420 ]
+216 silly gunzTarPerm extractEntry benchmark/tests/inline_html_simple.text
+217 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_simple.text', 438, 420 ]
+218 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_syntax.html
+219 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_syntax.html',
+219 silly gunzTarPerm   438,
+219 silly gunzTarPerm   420 ]
+220 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_syntax.text
+221 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_syntax.text',
+221 silly gunzTarPerm   438,
+221 silly gunzTarPerm   420 ]
+222 silly gunzTarPerm extractEntry benchmark/tests/blockquote_list_item.html
+223 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquote_list_item.html', 438, 420 ]
+224 silly gunzTarPerm extractEntry benchmark/tests/auto_links.text
+225 silly gunzTarPerm modified mode [ 'benchmark/tests/auto_links.text', 438, 420 ]
+226 silly gunzTarPerm extractEntry benchmark/tests/nested_em.html
+227 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_em.html', 438, 420 ]
+228 silly gunzTarPerm extractEntry benchmark/tests/code_spans.html
+229 silly gunzTarPerm modified mode [ 'benchmark/tests/code_spans.html', 438, 420 ]
+230 silly gunzTarPerm extractEntry benchmark/tests/ordered_and_unordered_lists.text
+231 silly gunzTarPerm modified mode [ 'benchmark/tests/ordered_and_unordered_lists.text', 438, 420 ]
+232 silly gunzTarPerm extractEntry benchmark/tests/nested_code.text
+233 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_code.text', 438, 420 ]
+234 silly gunzTarPerm extractEntry benchmark/tests/horizontal_rules.html
+235 silly gunzTarPerm modified mode [ 'benchmark/tests/horizontal_rules.html', 438, 420 ]
+236 silly gunzTarPerm extractEntry benchmark/tests/list_item_text.html
+237 silly gunzTarPerm modified mode [ 'benchmark/tests/list_item_text.html', 438, 420 ]
+238 silly gunzTarPerm extractEntry benchmark/tests/gfm_break.text
+239 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_break.text', 438, 420 ]
+240 silly gunzTarPerm extractEntry benchmark/tests/links_shortcut_references.html
+241 silly gunzTarPerm modified mode [ 'benchmark/tests/links_shortcut_references.html', 438, 420 ]
+242 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_basics.html
+243 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_basics.html',
+243 silly gunzTarPerm   438,
+243 silly gunzTarPerm   420 ]
+244 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_basics.text
+245 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_basics.text',
+245 silly gunzTarPerm   438,
+245 silly gunzTarPerm   420 ]
+246 silly gunzTarPerm extractEntry benchmark/tests/gfm_code.html
+247 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_code.html', 438, 420 ]
+248 silly gunzTarPerm extractEntry benchmark/tests/lazy_blockquotes.html
+249 silly gunzTarPerm modified mode [ 'benchmark/tests/lazy_blockquotes.html', 438, 420 ]
+250 silly gunzTarPerm extractEntry benchmark/tests/ordered_and_unordered_lists.html
+251 silly gunzTarPerm modified mode [ 'benchmark/tests/ordered_and_unordered_lists.html', 438, 420 ]
+252 silly gunzTarPerm extractEntry benchmark/tests/main.html
+253 silly gunzTarPerm modified mode [ 'benchmark/tests/main.html', 438, 420 ]
+254 silly gunzTarPerm extractEntry benchmark/tests/case_insensitive_refs.text
+255 silly gunzTarPerm modified mode [ 'benchmark/tests/case_insensitive_refs.text', 438, 420 ]
+256 silly gunzTarPerm extractEntry benchmark/tests/not_a_link.html
+257 silly gunzTarPerm modified mode [ 'benchmark/tests/not_a_link.html', 438, 420 ]
+258 silly gunzTarPerm extractEntry benchmark/tests/code_blocks.text
+259 silly gunzTarPerm modified mode [ 'benchmark/tests/code_blocks.text', 438, 420 ]
+260 silly gunzTarPerm extractEntry benchmark/tests/strong_and_em_together.text
+261 silly gunzTarPerm modified mode [ 'benchmark/tests/strong_and_em_together.text', 438, 420 ]
+262 silly gunzTarPerm extractEntry benchmark/tests/horizontal_rules.text
+263 silly gunzTarPerm modified mode [ 'benchmark/tests/horizontal_rules.text', 438, 420 ]
+264 silly gunzTarPerm extractEntry benchmark/tests/backslash_escapes.html
+265 silly gunzTarPerm modified mode [ 'benchmark/tests/backslash_escapes.html', 438, 420 ]
+266 silly gunzTarPerm extractEntry benchmark/tests/nested_square_link.html
+267 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_square_link.html', 438, 420 ]
+268 silly gunzTarPerm extractEntry benchmark/tests/not_a_link.text
+269 silly gunzTarPerm modified mode [ 'benchmark/tests/not_a_link.text', 438, 420 ]
+270 silly gunzTarPerm extractEntry benchmark/tests/case_insensitive_refs.html
+271 silly gunzTarPerm modified mode [ 'benchmark/tests/case_insensitive_refs.html', 438, 420 ]
+272 silly gunzTarPerm extractEntry benchmark/tests/escaped_angles.html
+273 silly gunzTarPerm modified mode [ 'benchmark/tests/escaped_angles.html', 438, 420 ]
+274 silly gunzTarPerm extractEntry benchmark/tests/toplevel_paragraphs.text
+275 silly gunzTarPerm modified mode [ 'benchmark/tests/toplevel_paragraphs.text', 438, 420 ]
+276 silly gunzTarPerm extractEntry benchmark/tests/auto_links.html
+277 silly gunzTarPerm modified mode [ 'benchmark/tests/auto_links.html', 438, 420 ]
+278 silly gunzTarPerm extractEntry benchmark/tests/amps_and_angles_encoding.html
+279 silly gunzTarPerm modified mode [ 'benchmark/tests/amps_and_angles_encoding.html', 438, 420 ]
+280 silly gunzTarPerm extractEntry benchmark/tests/tidyness.html
+281 silly gunzTarPerm modified mode [ 'benchmark/tests/tidyness.html', 438, 420 ]
+282 silly gunzTarPerm extractEntry benchmark/tests/lazy_blockquotes.text
+283 silly gunzTarPerm modified mode [ 'benchmark/tests/lazy_blockquotes.text', 438, 420 ]
+284 silly gunzTarPerm extractEntry benchmark/tests/links_shortcut_references.text
+285 silly gunzTarPerm modified mode [ 'benchmark/tests/links_shortcut_references.text', 438, 420 ]
+286 silly gunzTarPerm extractEntry benchmark/tests/same_bullet.text
+287 silly gunzTarPerm modified mode [ 'benchmark/tests/same_bullet.text', 438, 420 ]
+288 silly gunzTarPerm extractEntry benchmark/tests/loose_lists.html
+289 silly gunzTarPerm modified mode [ 'benchmark/tests/loose_lists.html', 438, 420 ]
+290 silly gunzTarPerm extractEntry benchmark/tests/inline_html_advanced.text
+291 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_advanced.text', 438, 420 ]
+292 silly gunzTarPerm extractEntry benchmark/tests/strong_and_em_together.html
+293 silly gunzTarPerm modified mode [ 'benchmark/tests/strong_and_em_together.html', 438, 420 ]
+294 silly gunzTarPerm extractEntry benchmark/tests/nested_blockquotes.html
+295 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_blockquotes.html', 438, 420 ]
+296 silly gunzTarPerm extractEntry benchmark/tests/blockquotes_with_code_blocks.html
+297 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquotes_with_code_blocks.html', 438, 420 ]
+298 silly gunzTarPerm extractEntry benchmark/tests/nested_square_link.text
+299 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_square_link.text', 438, 420 ]
+300 silly gunzTarPerm extractEntry benchmark/tests/links_inline_style.html
+301 silly gunzTarPerm modified mode [ 'benchmark/tests/links_inline_style.html', 438, 420 ]
+302 silly gunzTarPerm extractEntry benchmark/tests/backslash_escapes.text
+303 silly gunzTarPerm modified mode [ 'benchmark/tests/backslash_escapes.text', 438, 420 ]
+304 silly gunzTarPerm extractEntry benchmark/tests/toplevel_paragraphs.html
+305 silly gunzTarPerm modified mode [ 'benchmark/tests/toplevel_paragraphs.html', 438, 420 ]
+306 silly gunzTarPerm extractEntry benchmark/tests/literal_quotes_in_titles.html
+307 silly gunzTarPerm modified mode [ 'benchmark/tests/literal_quotes_in_titles.html', 438, 420 ]
+308 silly gunzTarPerm extractEntry benchmark/tests/gfm_links.text
+309 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_links.text', 438, 420 ]
+310 silly gunzTarPerm extractEntry benchmark/tests/amps_and_angles_encoding.text
+311 silly gunzTarPerm modified mode [ 'benchmark/tests/amps_and_angles_encoding.text', 438, 420 ]
+312 silly gunzTarPerm extractEntry benchmark/tests/inline_html_comments.text
+313 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_comments.text', 438, 420 ]
+314 silly gunzTarPerm extractEntry benchmark/fix
+315 silly gunzTarPerm modified mode [ 'benchmark/fix', 511, 493 ]
+316 silly gunzTarPerm extractEntry benchmark/results
+317 silly gunzTarPerm modified mode [ 'benchmark/results', 438, 420 ]
+318 silly gunzTarPerm extractEntry benchmark/new/list_item_text.html
+319 silly gunzTarPerm modified mode [ 'benchmark/new/list_item_text.html', 438, 420 ]
+320 silly gunzTarPerm extractEntry benchmark/new/loose_lists.text
+321 silly gunzTarPerm modified mode [ 'benchmark/new/loose_lists.text', 438, 420 ]
+322 silly gunzTarPerm extractEntry benchmark/new/gfm_em.text
+323 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_em.text', 438, 420 ]
+324 silly gunzTarPerm extractEntry benchmark/new/ref_paren.html
+325 silly gunzTarPerm modified mode [ 'benchmark/new/ref_paren.html', 438, 420 ]
+326 silly gunzTarPerm extractEntry benchmark/new/gfm_em.html
+327 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_em.html', 438, 420 ]
+328 silly gunzTarPerm extractEntry benchmark/new/gfm_links.html
+329 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_links.html', 438, 420 ]
+330 silly gunzTarPerm extractEntry benchmark/new/ref_paren.text
+331 silly gunzTarPerm modified mode [ 'benchmark/new/ref_paren.text', 438, 420 ]
+332 silly gunzTarPerm extractEntry benchmark/new/main.text
+333 silly gunzTarPerm modified mode [ 'benchmark/new/main.text', 438, 420 ]
+334 silly gunzTarPerm extractEntry benchmark/new/list_item_text.text
+335 silly gunzTarPerm modified mode [ 'benchmark/new/list_item_text.text', 438, 420 ]
+336 silly gunzTarPerm extractEntry benchmark/new/gfm_break.html
+337 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_break.html', 438, 420 ]
+338 silly gunzTarPerm extractEntry benchmark/new/nested_code.html
+339 silly gunzTarPerm modified mode [ 'benchmark/new/nested_code.html', 438, 420 ]
+340 silly gunzTarPerm extractEntry benchmark/new/gfm_code.text
+341 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_code.text', 438, 420 ]
+342 silly gunzTarPerm extractEntry benchmark/new/same_bullet.html
+343 silly gunzTarPerm modified mode [ 'benchmark/new/same_bullet.html', 438, 420 ]
+344 silly gunzTarPerm extractEntry benchmark/new/escaped_angles.text
+345 silly gunzTarPerm modified mode [ 'benchmark/new/escaped_angles.text', 438, 420 ]
+346 silly gunzTarPerm extractEntry benchmark/new/nested_em.text
+347 silly gunzTarPerm modified mode [ 'benchmark/new/nested_em.text', 438, 420 ]
+348 silly gunzTarPerm extractEntry benchmark/new/blockquote_list_item.html
+349 silly gunzTarPerm modified mode [ 'benchmark/new/blockquote_list_item.html', 438, 420 ]
+350 silly gunzTarPerm extractEntry benchmark/new/nested_em.html
+351 silly gunzTarPerm modified mode [ 'benchmark/new/nested_em.html', 438, 420 ]
+352 silly gunzTarPerm extractEntry benchmark/new/nested_code.text
+353 silly gunzTarPerm modified mode [ 'benchmark/new/nested_code.text', 438, 420 ]
+354 silly gunzTarPerm extractEntry benchmark/new/blockquote_list_item.text
+355 silly gunzTarPerm modified mode [ 'benchmark/new/blockquote_list_item.text', 438, 420 ]
+356 silly gunzTarPerm extractEntry benchmark/new/gfm_break.text
+357 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_break.text', 438, 420 ]
+358 silly gunzTarPerm extractEntry benchmark/new/gfm_code.html
+359 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_code.html', 438, 420 ]
+360 silly gunzTarPerm extractEntry benchmark/new/lazy_blockquotes.html
+361 silly gunzTarPerm modified mode [ 'benchmark/new/lazy_blockquotes.html', 438, 420 ]
+362 silly gunzTarPerm extractEntry benchmark/new/main.html
+363 silly gunzTarPerm modified mode [ 'benchmark/new/main.html', 438, 420 ]
+364 silly gunzTarPerm extractEntry benchmark/new/case_insensitive_refs.text
+365 silly gunzTarPerm modified mode [ 'benchmark/new/case_insensitive_refs.text', 438, 420 ]
+366 silly gunzTarPerm extractEntry benchmark/new/not_a_link.html
+367 silly gunzTarPerm modified mode [ 'benchmark/new/not_a_link.html', 438, 420 ]
+368 silly gunzTarPerm extractEntry benchmark/new/nested_square_link.html
+369 silly gunzTarPerm modified mode [ 'benchmark/new/nested_square_link.html', 438, 420 ]
+370 silly gunzTarPerm extractEntry benchmark/new/not_a_link.text
+371 silly gunzTarPerm modified mode [ 'benchmark/new/not_a_link.text', 438, 420 ]
+372 silly gunzTarPerm extractEntry benchmark/new/case_insensitive_refs.html
+373 silly gunzTarPerm modified mode [ 'benchmark/new/case_insensitive_refs.html', 438, 420 ]
+374 silly gunzTarPerm extractEntry benchmark/new/escaped_angles.html
+375 silly gunzTarPerm modified mode [ 'benchmark/new/escaped_angles.html', 438, 420 ]
+376 silly gunzTarPerm extractEntry benchmark/new/toplevel_paragraphs.text
+377 silly gunzTarPerm modified mode [ 'benchmark/new/toplevel_paragraphs.text', 438, 420 ]
+378 silly gunzTarPerm extractEntry benchmark/new/lazy_blockquotes.text
+379 silly gunzTarPerm modified mode [ 'benchmark/new/lazy_blockquotes.text', 438, 420 ]
+380 silly gunzTarPerm extractEntry benchmark/new/same_bullet.text
+381 silly gunzTarPerm modified mode [ 'benchmark/new/same_bullet.text', 438, 420 ]
+382 silly gunzTarPerm extractEntry benchmark/new/loose_lists.html
+383 silly gunzTarPerm modified mode [ 'benchmark/new/loose_lists.html', 438, 420 ]
+384 silly gunzTarPerm extractEntry benchmark/new/nested_square_link.text
+385 silly gunzTarPerm modified mode [ 'benchmark/new/nested_square_link.text', 438, 420 ]
+386 silly gunzTarPerm extractEntry benchmark/new/toplevel_paragraphs.html
+387 silly gunzTarPerm modified mode [ 'benchmark/new/toplevel_paragraphs.html', 438, 420 ]
+388 silly gunzTarPerm extractEntry benchmark/new/gfm_links.text
+389 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_links.text', 438, 420 ]
+390 silly gunzTarPerm extractEntry benchmark/original/code_blocks.html
+391 silly gunzTarPerm modified mode [ 'benchmark/original/code_blocks.html', 438, 420 ]
+392 silly gunzTarPerm extractEntry benchmark/original/literal_quotes_in_titles.text
+393 silly gunzTarPerm modified mode [ 'benchmark/original/literal_quotes_in_titles.text', 438, 420 ]
+394 silly gunzTarPerm extractEntry benchmark/original/links_inline_style.text
+395 silly gunzTarPerm modified mode [ 'benchmark/original/links_inline_style.text', 438, 420 ]
+396 silly gunzTarPerm extractEntry benchmark/original/inline_html_advanced.html
+397 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_advanced.html', 438, 420 ]
+398 silly gunzTarPerm extractEntry benchmark/original/inline_html_simple.html
+399 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_simple.html', 438, 420 ]
+400 silly gunzTarPerm extractEntry benchmark/original/tabs.text
+401 silly gunzTarPerm modified mode [ 'benchmark/original/tabs.text', 438, 420 ]
+402 silly gunzTarPerm extractEntry benchmark/original/tabs.html
+403 silly gunzTarPerm modified mode [ 'benchmark/original/tabs.html', 438, 420 ]
+404 silly gunzTarPerm extractEntry benchmark/original/tidyness.text
+405 silly gunzTarPerm modified mode [ 'benchmark/original/tidyness.text', 438, 420 ]
+406 silly gunzTarPerm extractEntry benchmark/original/links_reference_style.text
+407 silly gunzTarPerm modified mode [ 'benchmark/original/links_reference_style.text', 438, 420 ]
+408 silly gunzTarPerm extractEntry benchmark/original/links_reference_style.html
+409 silly gunzTarPerm modified mode [ 'benchmark/original/links_reference_style.html', 438, 420 ]
+410 silly gunzTarPerm extractEntry benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.html
+411 silly gunzTarPerm modified mode [ 'benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.html',
+411 silly gunzTarPerm   438,
+411 silly gunzTarPerm   420 ]
+412 silly gunzTarPerm extractEntry benchmark/original/blockquotes_with_code_blocks.text
+413 silly gunzTarPerm modified mode [ 'benchmark/original/blockquotes_with_code_blocks.text',
+413 silly gunzTarPerm   438,
+413 silly gunzTarPerm   420 ]
+414 silly gunzTarPerm extractEntry benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.text
+415 silly gunzTarPerm modified mode [ 'benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.text',
+415 silly gunzTarPerm   438,
+415 silly gunzTarPerm   420 ]
+416 silly gunzTarPerm extractEntry benchmark/original/inline_html_comments.html
+417 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_comments.html', 438, 420 ]
+418 silly gunzTarPerm extractEntry benchmark/original/code_spans.text
+419 silly gunzTarPerm modified mode [ 'benchmark/original/code_spans.text', 438, 420 ]
+420 silly gunzTarPerm extractEntry benchmark/original/nested_blockquotes.text
+421 silly gunzTarPerm modified mode [ 'benchmark/original/nested_blockquotes.text', 438, 420 ]
+422 silly gunzTarPerm extractEntry benchmark/original/inline_html_simple.text
+423 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_simple.text', 438, 420 ]
+424 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_syntax.html
+425 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_syntax.html',
+425 silly gunzTarPerm   438,
+425 silly gunzTarPerm   420 ]
+426 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_syntax.text
+427 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_syntax.text',
+427 silly gunzTarPerm   438,
+427 silly gunzTarPerm   420 ]
+428 silly gunzTarPerm extractEntry benchmark/original/auto_links.text
+429 silly gunzTarPerm modified mode [ 'benchmark/original/auto_links.text', 438, 420 ]
+430 silly gunzTarPerm extractEntry benchmark/original/code_spans.html
+431 silly gunzTarPerm modified mode [ 'benchmark/original/code_spans.html', 438, 420 ]
+432 silly gunzTarPerm extractEntry benchmark/original/ordered_and_unordered_lists.text
+433 silly gunzTarPerm modified mode [ 'benchmark/original/ordered_and_unordered_lists.text',
+433 silly gunzTarPerm   438,
+433 silly gunzTarPerm   420 ]
+434 silly gunzTarPerm extractEntry benchmark/original/horizontal_rules.html
+435 silly gunzTarPerm modified mode [ 'benchmark/original/horizontal_rules.html', 438, 420 ]
+436 silly gunzTarPerm extractEntry benchmark/original/links_shortcut_references.html
+437 silly gunzTarPerm modified mode [ 'benchmark/original/links_shortcut_references.html', 438, 420 ]
+438 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_basics.html
+439 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_basics.html',
+439 silly gunzTarPerm   438,
+439 silly gunzTarPerm   420 ]
+440 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_basics.text
+441 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_basics.text',
+441 silly gunzTarPerm   438,
+441 silly gunzTarPerm   420 ]
+442 silly gunzTarPerm extractEntry benchmark/original/ordered_and_unordered_lists.html
+443 silly gunzTarPerm modified mode [ 'benchmark/original/ordered_and_unordered_lists.html',
+443 silly gunzTarPerm   438,
+443 silly gunzTarPerm   420 ]
+444 silly gunzTarPerm extractEntry benchmark/original/code_blocks.text
+445 silly gunzTarPerm modified mode [ 'benchmark/original/code_blocks.text', 438, 420 ]
+446 silly gunzTarPerm extractEntry benchmark/original/strong_and_em_together.text
+447 silly gunzTarPerm modified mode [ 'benchmark/original/strong_and_em_together.text', 438, 420 ]
+448 silly gunzTarPerm extractEntry benchmark/original/horizontal_rules.text
+449 silly gunzTarPerm modified mode [ 'benchmark/original/horizontal_rules.text', 438, 420 ]
+450 silly gunzTarPerm extractEntry benchmark/original/backslash_escapes.html
+451 silly gunzTarPerm modified mode [ 'benchmark/original/backslash_escapes.html', 438, 420 ]
+452 silly gunzTarPerm extractEntry benchmark/original/auto_links.html
+453 silly gunzTarPerm modified mode [ 'benchmark/original/auto_links.html', 438, 420 ]
+454 silly gunzTarPerm extractEntry benchmark/original/amps_and_angles_encoding.html
+455 silly gunzTarPerm modified mode [ 'benchmark/original/amps_and_angles_encoding.html', 438, 420 ]
+456 silly gunzTarPerm extractEntry benchmark/original/tidyness.html
+457 silly gunzTarPerm modified mode [ 'benchmark/original/tidyness.html', 438, 420 ]
+458 silly gunzTarPerm extractEntry benchmark/original/links_shortcut_references.text
+459 silly gunzTarPerm modified mode [ 'benchmark/original/links_shortcut_references.text', 438, 420 ]
+460 silly gunzTarPerm extractEntry benchmark/original/inline_html_advanced.text
+461 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_advanced.text', 438, 420 ]
+462 silly gunzTarPerm extractEntry benchmark/original/strong_and_em_together.html
+463 silly gunzTarPerm modified mode [ 'benchmark/original/strong_and_em_together.html', 438, 420 ]
+464 silly gunzTarPerm extractEntry benchmark/original/nested_blockquotes.html
+465 silly gunzTarPerm modified mode [ 'benchmark/original/nested_blockquotes.html', 438, 420 ]
+466 silly gunzTarPerm extractEntry benchmark/original/blockquotes_with_code_blocks.html
+467 silly gunzTarPerm modified mode [ 'benchmark/original/blockquotes_with_code_blocks.html',
+467 silly gunzTarPerm   438,
+467 silly gunzTarPerm   420 ]
+468 silly gunzTarPerm extractEntry benchmark/original/links_inline_style.html
+469 silly gunzTarPerm modified mode [ 'benchmark/original/links_inline_style.html', 438, 420 ]
+470 silly gunzTarPerm extractEntry benchmark/original/backslash_escapes.text
+471 silly gunzTarPerm modified mode [ 'benchmark/original/backslash_escapes.text', 438, 420 ]
+472 silly gunzTarPerm extractEntry benchmark/original/literal_quotes_in_titles.html
+473 silly gunzTarPerm modified mode [ 'benchmark/original/literal_quotes_in_titles.html', 438, 420 ]
+474 silly gunzTarPerm extractEntry benchmark/original/amps_and_angles_encoding.text
+475 silly gunzTarPerm modified mode [ 'benchmark/original/amps_and_angles_encoding.text', 438, 420 ]
+476 silly gunzTarPerm extractEntry benchmark/original/inline_html_comments.text
+477 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_comments.text', 438, 420 ]
+478 silly gunzTarPerm extractEntry examples/ansi-rend.js
+479 silly gunzTarPerm modified mode [ 'examples/ansi-rend.js', 511, 493 ]
+480 silly gunzTarPerm extractEntry v8u/README.md
+481 silly gunzTarPerm modified mode [ 'v8u/README.md', 438, 420 ]
+482 silly gunzTarPerm extractEntry v8u/version.hpp
+483 silly gunzTarPerm modified mode [ 'v8u/version.hpp', 438, 420 ]
+484 silly gunzTarPerm extractEntry v8u/v8u.hpp
+485 silly gunzTarPerm modified mode [ 'v8u/v8u.hpp', 438, 420 ]
+486 silly gunzTarPerm extractEntry doc/robotskirt.markdown
+487 silly gunzTarPerm modified mode [ 'doc/robotskirt.markdown', 438, 420 ]
+488 silly gunzTarPerm extractEntry sundown/.npmignore
+489 silly gunzTarPerm modified mode [ 'sundown/.npmignore', 438, 420 ]
+490 silly gunzTarPerm extractEntry sundown/html_block_names.txt
+491 silly gunzTarPerm modified mode [ 'sundown/html_block_names.txt', 438, 420 ]
+492 silly gunzTarPerm extractEntry sundown/Makefile.win
+493 silly gunzTarPerm modified mode [ 'sundown/Makefile.win', 438, 420 ]
+494 silly gunzTarPerm extractEntry sundown/examples/smartypants.c
+495 silly gunzTarPerm modified mode [ 'sundown/examples/smartypants.c', 438, 420 ]
+496 silly gunzTarPerm extractEntry sundown/examples/sundown.c
+497 silly gunzTarPerm modified mode [ 'sundown/examples/sundown.c', 438, 420 ]
+498 silly gunzTarPerm extractEntry sundown/html/houdini.h
+499 silly gunzTarPerm modified mode [ 'sundown/html/houdini.h', 438, 420 ]
+500 silly gunzTarPerm extractEntry sundown/html/houdini_html_e.c
+501 silly gunzTarPerm modified mode [ 'sundown/html/houdini_html_e.c', 438, 420 ]
+502 silly gunzTarPerm extractEntry sundown/html/houdini_href_e.c
+503 silly gunzTarPerm modified mode [ 'sundown/html/houdini_href_e.c', 438, 420 ]
+504 silly gunzTarPerm extractEntry sundown/html/html_smartypants.c
+505 silly gunzTarPerm modified mode [ 'sundown/html/html_smartypants.c', 438, 420 ]
+506 silly gunzTarPerm extractEntry sundown/html/html.c
+507 silly gunzTarPerm modified mode [ 'sundown/html/html.c', 511, 493 ]
+508 silly gunzTarPerm extractEntry sundown/html/html.h
+509 silly gunzTarPerm modified mode [ 'sundown/html/html.h', 438, 420 ]
+510 silly gunzTarPerm extractEntry sundown/sundown.def
+511 silly gunzTarPerm modified mode [ 'sundown/sundown.def', 438, 420 ]
+512 silly gunzTarPerm extractEntry sundown/README.markdown
+513 silly gunzTarPerm modified mode [ 'sundown/README.markdown', 438, 420 ]
+514 silly gunzTarPerm extractEntry sundown/Makefile
+515 silly gunzTarPerm modified mode [ 'sundown/Makefile', 438, 420 ]
+516 silly gunzTarPerm extractEntry sundown/src/autolink.c
+517 silly gunzTarPerm modified mode [ 'sundown/src/autolink.c', 438, 420 ]
+518 silly gunzTarPerm extractEntry sundown/src/buffer.c
+519 silly gunzTarPerm modified mode [ 'sundown/src/buffer.c', 438, 420 ]
+520 silly gunzTarPerm extractEntry sundown/src/autolink.h
+521 silly gunzTarPerm modified mode [ 'sundown/src/autolink.h', 438, 420 ]
+522 silly gunzTarPerm extractEntry sundown/src/markdown.c
+523 silly gunzTarPerm modified mode [ 'sundown/src/markdown.c', 438, 420 ]
+524 silly gunzTarPerm extractEntry sundown/src/stack.h
+525 silly gunzTarPerm modified mode [ 'sundown/src/stack.h', 438, 420 ]
+526 silly gunzTarPerm extractEntry sundown/src/stack.c
+527 silly gunzTarPerm modified mode [ 'sundown/src/stack.c', 438, 420 ]
+528 silly gunzTarPerm extractEntry sundown/src/html_blocks.h
+529 silly gunzTarPerm modified mode [ 'sundown/src/html_blocks.h', 438, 420 ]
+530 silly gunzTarPerm extractEntry sundown/src/markdown.h
+531 silly gunzTarPerm modified mode [ 'sundown/src/markdown.h', 438, 420 ]
+532 silly gunzTarPerm extractEntry sundown/src/buffer.h
+533 silly gunzTarPerm modified mode [ 'sundown/src/buffer.h', 438, 420 ]
+534 silly gunzTarPerm extractEntry index.html
+535 silly gunzTarPerm modified mode [ 'index.html', 438, 420 ]
+536 silly gunzTarPerm extractEntry houdini/.npmignore
+537 silly gunzTarPerm modified mode [ 'houdini/.npmignore', 438, 420 ]
+538 silly gunzTarPerm extractEntry houdini/README.md
+539 silly gunzTarPerm modified mode [ 'houdini/README.md', 438, 420 ]
+540 silly gunzTarPerm extractEntry houdini/houdini_html_u.c
+541 silly gunzTarPerm modified mode [ 'houdini/houdini_html_u.c', 438, 420 ]
+542 silly gunzTarPerm extractEntry houdini/houdini.h
+543 silly gunzTarPerm modified mode [ 'houdini/houdini.h', 438, 420 ]
+544 silly gunzTarPerm extractEntry houdini/houdini_html_e.c
+545 silly gunzTarPerm modified mode [ 'houdini/houdini_html_e.c', 438, 420 ]
+546 silly gunzTarPerm extractEntry houdini/buffer.c
+547 silly gunzTarPerm modified mode [ 'houdini/buffer.c', 438, 420 ]
+548 silly gunzTarPerm extractEntry houdini/html_unescape.h
+549 silly gunzTarPerm modified mode [ 'houdini/html_unescape.h', 438, 420 ]
+550 silly gunzTarPerm extractEntry houdini/houdini_href_e.c
+551 silly gunzTarPerm modified mode [ 'houdini/houdini_href_e.c', 438, 420 ]
+552 silly gunzTarPerm extractEntry houdini/COPYING
+553 silly gunzTarPerm modified mode [ 'houdini/COPYING', 438, 420 ]
+554 silly gunzTarPerm extractEntry houdini/houdini_uri_u.c
+555 silly gunzTarPerm modified mode [ 'houdini/houdini_uri_u.c', 438, 420 ]
+556 silly gunzTarPerm extractEntry houdini/houdini_xml_e.c
+557 silly gunzTarPerm modified mode [ 'houdini/houdini_xml_e.c', 438, 420 ]
+558 silly gunzTarPerm extractEntry houdini/houdini_js_u.c
+559 silly gunzTarPerm modified mode [ 'houdini/houdini_js_u.c', 438, 420 ]
+560 silly gunzTarPerm extractEntry houdini/houdini_js_e.c
+561 silly gunzTarPerm modified mode [ 'houdini/houdini_js_e.c', 438, 420 ]
+562 silly gunzTarPerm extractEntry houdini/tools/build_tables.c
+563 silly gunzTarPerm modified mode [ 'houdini/tools/build_tables.c', 438, 420 ]
+564 silly gunzTarPerm extractEntry houdini/tools/wikipedia_table.txt
+565 silly gunzTarPerm modified mode [ 'houdini/tools/wikipedia_table.txt', 438, 420 ]
+566 silly gunzTarPerm extractEntry houdini/tools/build_table.py
+567 silly gunzTarPerm modified mode [ 'houdini/tools/build_table.py', 438, 420 ]
+568 silly gunzTarPerm extractEntry houdini/houdini_uri_e.c
+569 silly gunzTarPerm modified mode [ 'houdini/houdini_uri_e.c', 438, 420 ]
+570 silly gunzTarPerm extractEntry houdini/html_unescape.gperf
+571 silly gunzTarPerm modified mode [ 'houdini/html_unescape.gperf', 438, 420 ]
+572 silly gunzTarPerm extractEntry houdini/buffer.h
+573 silly gunzTarPerm modified mode [ 'houdini/buffer.h', 438, 420 ]
+574 silly gunzTarPerm extractEntry houdini/Makefile
+575 silly gunzTarPerm modified mode [ 'houdini/Makefile', 438, 420 ]
+576 silly gunzTarPerm extractEntry src/markdown.c
+577 silly gunzTarPerm modified mode [ 'src/markdown.c', 438, 420 ]
+578 silly gunzTarPerm extractEntry src/version.hpp
+579 silly gunzTarPerm modified mode [ 'src/version.hpp', 438, 420 ]
+580 silly gunzTarPerm extractEntry src/houdini_uri_u.c
+581 silly gunzTarPerm modified mode [ 'src/houdini_uri_u.c', 438, 420 ]
+582 silly gunzTarPerm extractEntry src/houdini_html_u.c
+583 silly gunzTarPerm modified mode [ 'src/houdini_html_u.c', 438, 420 ]
+584 silly gunzTarPerm extractEntry src/houdini.h
+585 silly gunzTarPerm modified mode [ 'src/houdini.h', 438, 420 ]
+586 silly gunzTarPerm extractEntry src/houdini_html_e.c
+587 silly gunzTarPerm modified mode [ 'src/houdini_html_e.c', 438, 420 ]
+588 silly gunzTarPerm extractEntry src/autolink.c
+589 silly gunzTarPerm modified mode [ 'src/autolink.c', 438, 420 ]
+590 silly gunzTarPerm extractEntry src/robotskirt.cc
+591 silly gunzTarPerm modified mode [ 'src/robotskirt.cc', 438, 420 ]
+592 silly gunzTarPerm extractEntry src/buffer.c
+593 silly gunzTarPerm modified mode [ 'src/buffer.c', 438, 420 ]
+594 silly gunzTarPerm extractEntry src/html_unescape.h
+595 silly gunzTarPerm modified mode [ 'src/html_unescape.h', 438, 420 ]
+596 silly gunzTarPerm extractEntry src/houdini_href_e.c
+597 silly gunzTarPerm modified mode [ 'src/houdini_href_e.c', 438, 420 ]
+598 silly gunzTarPerm extractEntry src/autolink.h
+599 silly gunzTarPerm modified mode [ 'src/autolink.h', 438, 420 ]
+600 silly gunzTarPerm extractEntry src/houdini_js_e.c
+601 silly gunzTarPerm modified mode [ 'src/houdini_js_e.c', 438, 420 ]
+602 silly gunzTarPerm extractEntry src/html_smartypants.c
+603 silly gunzTarPerm modified mode [ 'src/html_smartypants.c', 438, 420 ]
+604 silly gunzTarPerm extractEntry src/stack.h
+605 silly gunzTarPerm modified mode [ 'src/stack.h', 438, 420 ]
+606 silly gunzTarPerm extractEntry src/html.c
+607 silly gunzTarPerm modified mode [ 'src/html.c', 511, 493 ]
+608 silly gunzTarPerm extractEntry src/stack.c
+609 silly gunzTarPerm modified mode [ 'src/stack.c', 438, 420 ]
+610 silly gunzTarPerm extractEntry src/houdini_xml_e.c
+611 silly gunzTarPerm modified mode [ 'src/houdini_xml_e.c', 438, 420 ]
+612 silly gunzTarPerm extractEntry src/v8u.hpp
+613 silly gunzTarPerm modified mode [ 'src/v8u.hpp', 438, 420 ]
+614 silly gunzTarPerm extractEntry src/houdini_js_u.c
+615 silly gunzTarPerm modified mode [ 'src/houdini_js_u.c', 438, 420 ]
+616 silly gunzTarPerm extractEntry src/html_blocks.h
+617 silly gunzTarPerm modified mode [ 'src/html_blocks.h', 438, 420 ]
+618 silly gunzTarPerm extractEntry src/html.h
+619 silly gunzTarPerm modified mode [ 'src/html.h', 438, 420 ]
+620 silly gunzTarPerm extractEntry src/houdini_uri_e.c
+621 silly gunzTarPerm modified mode [ 'src/houdini_uri_e.c', 438, 420 ]
+622 silly gunzTarPerm extractEntry src/markdown.h
+623 silly gunzTarPerm modified mode [ 'src/markdown.h', 438, 420 ]
+624 silly gunzTarPerm extractEntry src/buffer.h
+625 silly gunzTarPerm modified mode [ 'src/buffer.h', 438, 420 ]
+626 silly gunzTarPerm extractEntry bin/robotskirt
+627 silly gunzTarPerm modified mode [ 'bin/robotskirt', 511, 493 ]
+628 silly gunzTarPerm extractEntry binding.gyp
+629 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+630 silly gentlyRm /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc/node_modules is being purged
+631 verbose gentlyRm don't care about contents; nuking /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc/node_modules
+632 silly doParallel preinstall 1
+633 silly preinstall robotskirt@2.7.1 /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc
+634 info lifecycle robotskirt@2.7.1~preinstall: robotskirt@2.7.1
+635 silly lifecycle robotskirt@2.7.1~preinstall: no script for preinstall, continuing
+636 silly doReverseSerial remove 0
+637 silly doSerial move 0
+638 silly doSerial finalize 1
+639 silly finalize /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/robotskirt
+640 silly doSerial build 1
+641 silly build robotskirt@2.7.1
+642 info linkStuff robotskirt@2.7.1
+643 silly linkStuff robotskirt@2.7.1 has /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules as its parent node_modules
+644 verbose linkBins robotskirt@2.7.1
+645 verbose link bins [ { robotskirt: 'bin/robotskirt' },
+645 verbose link bins   '/Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.bin',
+645 verbose link bins   false ]
+646 verbose linkMans robotskirt@2.7.1
+647 silly doSerial global-link 0
+648 silly doParallel update-linked 0
+649 silly doSerial install 1
+650 silly install robotskirt@2.7.1 /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging/robotskirt-1485c8fc
+651 info lifecycle robotskirt@2.7.1~install: robotskirt@2.7.1
+652 verbose lifecycle robotskirt@2.7.1~install: unsafe-perm in lifecycle true
+653 verbose lifecycle robotskirt@2.7.1~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/robotskirt/node_modules/.bin:/Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/AdamMacdonald/.rvm/gems/ruby-2.1.2/bin:/Users/AdamMacdonald/.rvm/gems/ruby-2.1.2@global/bin:/Users/AdamMacdonald/.rvm/rubies/ruby-2.1.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/AdamMacdonald/.rvm/bin
+654 verbose lifecycle robotskirt@2.7.1~install: CWD: /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/robotskirt
+655 silly lifecycle robotskirt@2.7.1~install: Args: [ '-c', 'node-gyp rebuild' ]
+656 silly lifecycle robotskirt@2.7.1~install: Returned: code: 1  signal: null
+657 info lifecycle robotskirt@2.7.1~install: Failed to exec install script
+658 verbose unlock done using /Users/AdamMacdonald/.npm/_locks/staging-4c48c004cf4317fe.lock for /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master/node_modules/.staging
+659 silly rollbackFailedOptional Starting
+660 silly rollbackFailedOptional Finishing
+661 silly runTopLevelLifecycles Finishing
+662 silly install printInstalled
+663 verbose stack Error: robotskirt@2.7.1 install: `node-gyp rebuild`
+663 verbose stack Exit status 1
+663 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+663 verbose stack     at emitTwo (events.js:106:13)
+663 verbose stack     at EventEmitter.emit (events.js:191:7)
+663 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+663 verbose stack     at emitTwo (events.js:106:13)
+663 verbose stack     at ChildProcess.emit (events.js:191:7)
+663 verbose stack     at maybeClose (internal/child_process.js:886:16)
+663 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+664 verbose pkgid robotskirt@2.7.1
+665 verbose cwd /Users/AdamMacdonald/PhpstormProjects/Reezly/assets/vendor/marked-master
+666 error Darwin 16.7.0
+667 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "update" "--scripts-prepend-node-path=auto"
+668 error node v6.10.2
+669 error npm  v3.10.10
+670 error code ELIFECYCLE
+671 error robotskirt@2.7.1 install: `node-gyp rebuild`
+671 error Exit status 1
+672 error Failed at the robotskirt@2.7.1 install script 'node-gyp rebuild'.
+672 error Make sure you have the latest version of node.js and npm installed.
+672 error If you do, this is most likely a problem with the robotskirt package,
+672 error not with npm itself.
+672 error Tell the author that this fails on your system:
+672 error     node-gyp rebuild
+672 error You can get information on how to open an issue for this project with:
+672 error     npm bugs robotskirt
+672 error Or if that isn't available, you can get their info via:
+672 error     npm owner ls robotskirt
+672 error There is likely additional logging output above.
+673 verbose exit [ 1, true ]
