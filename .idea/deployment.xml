@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="reezly">
+  <component name="PublishConfigData" serverName="reezly" uploadOnCheckin="6507a855-9dd5-417a-b15e-fd7b6b92b06f">
     <serverData>
       <paths name="reezly">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="reezly" />
   </component>
 </project>
