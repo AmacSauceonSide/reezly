@@ -97,7 +97,7 @@ class FunctionsV3
 		if ( getOptionA('merchant_disabled_registration')!="yes"){
 		    $top_menu[]=array('tag'=>"resto_signup",
 		        'visible'=>in_array('resto_signup',(array)$top_menu_activated)?true:false,
-		        'label'=>''.Yii::t("default","Restaurant Signup"),
+		        'label'=>''.Yii::t("default","Farmer Signup"),
                 'url'=>array($signup_link));
 		}       
                 
