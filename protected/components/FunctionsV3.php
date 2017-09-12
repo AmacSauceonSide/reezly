@@ -80,7 +80,7 @@ class FunctionsV3
                                               
         $top_menu[]=array('tag'=>"browse",
                 'visible'=>in_array('browse',(array)$top_menu_activated)?true:false,
-                'label'=>''.Yii::t("default","Browse Restaurant"),
+                'label'=>''.Yii::t("default","Browse Farms"),
                 'url'=>array('/store/browse'));
                         
         $enabled_commission=getOptionA('admin_commission_enabled');		
