@@ -69,28 +69,28 @@ if ( $home_search_mode=="address" || $home_search_mode=="") {
         <img src="<?php echo assetsURL()."/images/step1.png"?>">
       </div>
       <h3><?php echo t("Search")?></h3>
-      <p><?php echo t("Find all restaurants available near you")?></p>
+      <p><?php echo t("Find the best local farmers and shops")?></p>
    </div>
    <div class="col-md-3 col-sm-3 center">
       <div class="steps step2-icon">
          <img src="<?php echo assetsURL()."/images/step2.png"?>">
       </div>
       <h3><?php echo t("Choose")?></h3>
-      <p><?php echo t("Browse hundreds of menus to find the food you like")?></p>
+      <p><?php echo t("Browse hundreds of fresh products to make the best dishes either at home or in the restaurant")?></p>
    </div>
    <div class="col-md-3 col-sm-3  center">
       <div class="steps step2-icon">
         <img src="<?php echo assetsURL()."/images/step3.png"?>">
       </div>
-      <h3><?php echo t("Pay")?></h3>
-      <p><?php echo t("It's quick, secure and easy")?></p>
+      <h3><?php echo t("Learn")?></h3>
+      <p><?php echo t("Most important learn where your food is grown.  You can even book a farmer to come to your restaurant.")?></p>
    </div>
    <div class="col-md-3 col-sm-3  center">
      <div class="steps step2-icon">
        <img src="<?php echo assetsURL()."/images/step4.png"?>">
      </div>
       <h3><?php echo t("Enjoy")?></h3>
-      <p><?php echo t("Food is prepared & delivered to your door")?></p>
+      <p><?php echo t("Real food is delivered to your favorite restaurant or to your residence.")?></p>
    </div>   
  </div>
 
@@ -107,7 +107,7 @@ if ( $home_search_mode=="address" || $home_search_mode=="") {
 <div class="container">
 
 
-  <h2><?php echo t("Featured Restaurants")?></h2>
+  <h2><?php echo t("Featured Merchants")?></h2>
   
   <div class="row">
   <?php foreach ($res as $val): //dump($val);?>
@@ -174,7 +174,7 @@ if ( $home_search_mode=="address" || $home_search_mode=="") {
 
 <div class="col-md-9  nopad">
 
-  <h2><?php echo t("Browse by cuisine")?></h2>
+  <h2><?php echo t("Real Food Easy Browse Reezly")?></h2>
   <p class="sub-text center"><?php echo t("choose from your favorite cuisine")?></p>
   
   <div class="row">
