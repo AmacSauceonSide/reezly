@@ -1,6 +1,6 @@
 <?php
 $this->renderPartial('/front/banner-receipt',array(
-   'h1'=>t("Restaurant Signup"),
+   'h1'=>t("Merchant Signup"),
    'sub_text'=>t("step 2 of 4")
 ));
 

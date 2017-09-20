@@ -1,6 +1,6 @@
 <?php
 $this->renderPartial('/front/banner-receipt',array(
-   'h1'=>t("Restaurant Signup"),
+   'h1'=>t("Merchant Signup"),
    'sub_text'=>t("step 2 of 4")
 ));
 
@@ -28,7 +28,7 @@ $this->renderPartial('/front/progress-merchantsignup',array(
 	  <?php FunctionsV3::addCsrfToken();?>
       
       <div class="row top10">
-        <div class="col-md-3 "><?php echo t("Restaurant name")?></div>
+        <div class="col-md-3 "><?php echo t("Merchant Name")?></div>
         <div class="col-md-8 ">
              <?php echo CHtml::textField('restaurant_name',
 			  isset($data['restaurant_name'])?$data['restaurant_name']:""
@@ -54,7 +54,7 @@ $this->renderPartial('/front/progress-merchantsignup',array(
      <?php endif;?>      
       
      <div class="row top10">
-        <div class="col-md-3"><?php echo t("Restaurant phone")?></div>
+        <div class="col-md-3"><?php echo t("Merchant phone")?></div>
         <div class="col-md-8">
          <?php echo CHtml::textField('restaurant_phone',
 		  isset($data['restaurant_phone'])?$data['restaurant_phone']:""
@@ -170,7 +170,7 @@ $this->renderPartial('/front/progress-merchantsignup',array(
       </div>
       
       <div class="row top10">
-        <div class="col-md-3"><?php echo t("Cuisine")?></div>
+        <div class="col-md-3"><?php echo t("Type")?></div>
         <div class="col-md-8">
 		  <?php echo CHtml::dropDownList('cuisine[]',
 		  isset($data['cuisine'])?(array)json_decode($data['cuisine']):"",
