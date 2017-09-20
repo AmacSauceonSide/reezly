@@ -70,7 +70,7 @@ echo CHtml::hiddenField('mobile_country_code',Yii::app()->functions->getAdminCou
       </div> 
       
       <div class="row top10">
-        <div class="col-md-3 "><?php echo t("Restaurant name")?></div>
+        <div class="col-md-3 "><?php echo t("Merchant name")?></div>
         <div class="col-md-8 ">
              <?php echo CHtml::textField('restaurant_name',
 			  isset($data['restaurant_name'])?$data['restaurant_name']:""
@@ -96,7 +96,7 @@ echo CHtml::hiddenField('mobile_country_code',Yii::app()->functions->getAdminCou
      <?php endif;?>
       
      <div class="row top10">
-        <div class="col-md-3"><?php echo t("Restaurant phone")?></div>
+        <div class="col-md-3"><?php echo t("Merchant phone")?></div>
         <div class="col-md-8">
          <?php echo CHtml::textField('restaurant_phone',
 		  isset($data['restaurant_phone'])?$data['restaurant_phone']:""
@@ -212,7 +212,7 @@ echo CHtml::hiddenField('mobile_country_code',Yii::app()->functions->getAdminCou
       </div>
       
       <div class="row top10">
-        <div class="col-md-3"><?php echo t("Cuisine")?></div>
+        <div class="col-md-3"><?php echo t("Type")?></div>
         <div class="col-md-8">
 		  <?php 
 		  $cuisine_list=Yii::app()->functions->Cuisine(true);
