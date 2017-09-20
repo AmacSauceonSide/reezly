@@ -175,7 +175,7 @@ if ( $home_search_mode=="address" || $home_search_mode=="") {
 <div class="col-md-9  nopad">
 
   <h2><?php echo t("Real Food Easy Browse Reezly")?></h2>
-  <p class="sub-text center"><?php echo t("choose from your favorite cuisine")?></p>
+  <p class="sub-text center"><?php echo t("Real Food you will be looking good but feeling better")?></p>
   
   <div class="row">
     <?php $x=1;?>
