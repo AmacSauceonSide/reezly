@@ -16,7 +16,7 @@
 
 <div class="row top10">
    <div class="col-md-3 ">
-     <?php echo t("Number Of Guests")?>
+     <?php echo t("Number Of Restaurants")?>
    </div>
    <div class="col-md-3 ">
 	 <?php echo CHtml::textField('number_guest',''			 
@@ -126,7 +126,7 @@ if ( Yii::app()->functions->isClientLogin()){
 <div class="row top10">  
   <div class="col-md-3 "></div>
   <div class="col-md-6 text-left ">
-  <input type="submit" value="<?php echo t("Book a Table")?>" class="rounded book-table-button green-button inline">
+  <input type="submit" value="<?php echo t("Book a Farmer")?>" class="rounded book-table-button green-button inline">
   </div>
 </div><!-- row-->
 

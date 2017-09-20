@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="reezly" uploadOnCheckin="6507a855-9dd5-417a-b15e-fd7b6b92b06f">
     <serverData>
+      <paths name="givdapps">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/../givdapps" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="reezly">
         <serverdata>
           <mappings>
